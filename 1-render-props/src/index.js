@@ -1,4 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(<RenderProps />, document.getElementById('root'));
+import ApplicationContainer from "./components/ApplicationContainer"
+
+ReactDOM.render(<ApplicationContainer name="Mayank" age="20" />, document.getElementById("root"))
