@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ParentComponent from "./ParentComponent";
 
-ReactDOM.render(<RenderProps />, document.getElementById('root'));
+ReactDOM.render(<ParentComponent />, document.getElementById('root'));
